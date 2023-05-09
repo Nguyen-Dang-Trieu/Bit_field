@@ -1,5 +1,6 @@
 #include<stdio.h>
 
+
 char bit_field_read(char bit, char width, char byte);
 int main(){
     unsigned char board;

@@ -1,6 +1,4 @@
-
 #include <stdio.h>
-
 
 /* Cac kieu du lieu cua bit-fields: unsigned int, signed int, bool or unsigned char
 */
