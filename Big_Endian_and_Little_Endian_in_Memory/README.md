@@ -19,7 +19,7 @@ int main()
     Khi ép kiểu a thành kiểu short (16bit) thì mỗi lần đọc giá trị thì nó sẽ theo dạng Little Endian:
 
     + 1: 0000 0001, 2: 0000 0010 --- Big Endian: 0000 0001 0000 0010 - 258
-    + 2: 0000 0010, 1: 0000 0001 --- Little Endian: 0000 0010 0000 0001 - 512    <---- Giá trị được chọn.
+    + 2: 0000 0010, 1: 0000 0001 --- Little Endian: 0000 0010 0000 0001 - 513   <---- Giá trị được chọn.
     */
     // Print the value at the current position of the pointer
     printf("%d\n", *b);
