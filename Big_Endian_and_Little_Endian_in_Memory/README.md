@@ -16,7 +16,7 @@ int main()
 
     /* Các máy tính hiện đại lưu trữ dữ liệu theo kiểu littler endian, nên khi truy xuất dữ liệu thì sẽ theo dạng Little Endian.
 
-    vd: mảng a có kiểu tử char (8bit) ở trên.
+    VD: mảng a có kiểu tử char (8bit) ở trên.
     Khi ép kiểu a thành kiểu short (16bit) thì mỗi lần đọc giá trị thì nó sẽ theo dạng Little Endian:
 
     + 1: 0000 0001, 2: 0000 0010 --- Big Endian: 0000 0001 0000 0010 - 258
