@@ -14,7 +14,8 @@ int main()
     // Cast the array 'a' to a pointer of type 'short'
     short *b = (short *)a;
 
-    /* Các máy tính hiện đại lưu trữ dữ liệu theo kiểu littler endian, nên khi truy xuất dữ liệu thì sẽ theo dạng Little Endian
+    /* Các máy tính hiện đại lưu trữ dữ liệu theo kiểu littler endian, nên khi truy xuất dữ liệu thì sẽ theo dạng Little Endian.
+
     vd: mảng a có kiểu tử char (8bit) ở trên.
     Khi ép kiểu a thành kiểu short (16bit) thì mỗi lần đọc giá trị thì nó sẽ theo dạng Little Endian:
 
